@@ -12,3 +12,9 @@ This assumes that the MQTT values are UTF-8 strings.
   - Net::MQTT::Simple 
 - a MQTT broker (e.g. mosquitto)
 
+## Usage:
+
+- create database and table
+  - `sqlite3 mqtt.sq3 <c_mql.sql`
+- run the application
+  - PERL_UNICODE="" perl mqtt_logger.pl
